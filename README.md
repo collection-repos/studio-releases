@@ -15,9 +15,12 @@ falharia calado na de todos os outros.
 | -------------------- | ------------------------------------- | --------------------------------------------- |
 | `studio-plugin/`     | **Studio** — o seletor de cenas       | `latest.json` desta pasta, pela própria extensão |
 | `studio-plugin/full/`| **Studio completo** — o Studio inteiro numa janela | `latest.json` desta pasta                |
+| `studio-bridge/`     | **Studio (ponte)** — avisa o aplicativo que o SketchUp está aberto | `latest.json` desta pasta |
 
-A extensão **Studio (ponte)**, que só avisa o aplicativo de computador que o SketchUp está aberto,
-não aparece aqui: ela não tem atualizador. Atualizar a ponte é instalar o `.rbz` novo.
+A ponte se atualiza sozinha desde a `0.3.0`, com um atualizador próprio e pequeno: ela é a
+extensão que mais muda, porque cada capacidade nova que o aplicativo aprende a pedir sai numa
+versão nova dela. Ela só instala pacote servido por **este** repositório, e é por isso que o
+endereço acima não pode mudar de lugar sem mudar a extensão junto.
 
 ## Duas formas de publicar no mesmo repositório, e por quê
 
