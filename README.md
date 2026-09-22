@@ -19,9 +19,6 @@ falharia calado na de todos os outros.
 A extensão **Studio (ponte)**, que só avisa o aplicativo de computador que o SketchUp está aberto,
 não aparece aqui: ela não tem atualizador. Atualizar a ponte é instalar o `.rbz` novo.
 
-A pasta `desktop/` está reservada ao **aplicativo Studio de computador**, se ele vier a precisar de
-algo na árvore.
-
 ## Duas formas de publicar no mesmo repositório, e por quê
 
 | O que se atualiza | Onde os arquivos ficam | Por quê |
@@ -29,7 +26,22 @@ algo na árvore.
 | As extensões do SketchUp | Na **árvore**, nas pastas acima, lidas por `raw.githubusercontent.com` | O atualizador embarcado exige resposta 200 direta, e endereço de release responde com redirecionamento |
 | O aplicativo de computador | Nas **releases** do repositório, uma tag por versão, com o instalador e o `latest.yml` como anexos | É o formato que o `electron-updater` sabe ler, e ele segue redirecionamento sozinho |
 
-As duas convivem sem se atropelar: uma mexe em arquivos, a outra em releases e tags.
+As duas convivem sem se atropelar: uma mexe em arquivos, a outra em releases e tags. O aplicativo
+não usa a árvore; suas tags são `v<versão>` e os anexos de cada release são
+`Studio-Setup-<versão>.exe`, `latest.yml` e o `.blockmap` correspondente.
+
+### Regra: nenhuma release comum além das do aplicativo
+
+O `electron-updater`, na configuração que o aplicativo usa, **não procura a release dele**: ele
+pergunta ao GitHub qual é a release `latest` do repositório inteiro e só então procura o
+`latest.yml` entre os anexos dela. Uma release comum publicada aqui por qualquer outro motivo — do
+plugin, por exemplo — passa a ser a `latest` do repositório, o aplicativo procura o `latest.yml`
+nela, não acha, e **desiste sem mostrar erro nenhum**: ninguém recebe atualização e nada aparece na
+tela para explicar.
+
+Por isso o plugin vive na árvore, e não em releases. Se algum dia for preciso publicar uma release
+aqui que não seja do aplicativo, ela tem que ser marcada como **pre-release**, que é o que o
+endpoint de `latest` ignora.
 
 ## Como um `latest.json` é lido
 
