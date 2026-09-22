@@ -1,0 +1,9 @@
+{
+  "version": "0.9.1",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-plugin/full/studio-full-0.9.1-unsigned.rbz",
+  "sha256": "1140b148f8cde50fcc9fac4d9e89d7a65664a68d8e720a32ff384c49a6fdc3e8",
+  "min_sketchup": 21,
+  "changelog": "Atualização pelo repositório público de downloads. Pacote de teste, ainda sem assinatura.",
+  "published_at": "2026-09-22",
+  "signed": false
+}
