@@ -19,6 +19,18 @@ falharia calado na de todos os outros.
 A extensão **Studio (ponte)**, que só avisa o aplicativo de computador que o SketchUp está aberto,
 não aparece aqui: ela não tem atualizador. Atualizar a ponte é instalar o `.rbz` novo.
 
+A pasta `desktop/` está reservada ao **aplicativo Studio de computador**, se ele vier a precisar de
+algo na árvore.
+
+## Duas formas de publicar no mesmo repositório, e por quê
+
+| O que se atualiza | Onde os arquivos ficam | Por quê |
+| ----------------- | ---------------------- | ------- |
+| As extensões do SketchUp | Na **árvore**, nas pastas acima, lidas por `raw.githubusercontent.com` | O atualizador embarcado exige resposta 200 direta, e endereço de release responde com redirecionamento |
+| O aplicativo de computador | Nas **releases** do repositório, uma tag por versão, com o instalador e o `latest.yml` como anexos | É o formato que o `electron-updater` sabe ler, e ele segue redirecionamento sozinho |
+
+As duas convivem sem se atropelar: uma mexe em arquivos, a outra em releases e tags.
+
 ## Como um `latest.json` é lido
 
 ```json
