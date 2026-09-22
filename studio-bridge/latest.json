@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-0.3.0-unsigned.rbz",
-  "sha256": "685bfb23b607083d6109ccaed809973ad8e9a0e7720ca42e5bcc6e551fc5ffab",
+  "version": "0.4.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-0.4.0-unsigned.rbz",
+  "sha256": "6da3faf0ba5e69ccd92ce1ec384d035e71fba3109aafafe060f513c406cee736",
   "min_sketchup": 21,
-  "changelog": "A ponte passa a se atualizar sozinha. Pacote de teste, ainda sem assinatura.",
+  "changelog": "As cenas passam a aparecer uma a uma no aplicativo, e o modelo é reconhecido pelo mesmo projeto da janela do Studio. Pacote de teste, ainda sem assinatura.",
   "published_at": "2026-09-22",
   "signed": false
 }
