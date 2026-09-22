@@ -1,9 +1,9 @@
 {
-  "version": "0.4.0",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-0.4.0-unsigned.rbz",
-  "sha256": "6da3faf0ba5e69ccd92ce1ec384d035e71fba3109aafafe060f513c406cee736",
+  "version": "0.4.1",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-0.4.1-unsigned.rbz",
+  "sha256": "03702cba3a01ca523a886856b9ee399d2afe671e225b08c1e5d6013eba1ffa42",
   "min_sketchup": 21,
-  "changelog": "As cenas passam a aparecer uma a uma no aplicativo, e o modelo é reconhecido pelo mesmo projeto da janela do Studio. Pacote de teste, ainda sem assinatura.",
+  "changelog": "Depois de trazer as cenas para o aplicativo, o SketchUp volta exatamente para a vista em que você estava. Pacote de teste, ainda sem assinatura.",
   "published_at": "2026-09-22",
   "signed": false
 }
