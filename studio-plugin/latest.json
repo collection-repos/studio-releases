@@ -1,9 +1,9 @@
 {
-  "version": "0.9.1",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-plugin/studio-0.9.1-unsigned.rbz",
-  "sha256": "39204c69068b03d1d8d0ea0cc92036f47635f1fe08a89be2bcad2fdd866578e7",
+  "version": "0.9.2",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-plugin/studio-0.9.2-unsigned.rbz",
+  "sha256": "70f19a455cd3722fe78a7d2898ee0c43b0e2e4a3622bc7da5646e1e48d0649d8",
   "min_sketchup": 21,
-  "changelog": "Atualização pelo repositório público de downloads. Pacote de teste, ainda sem assinatura.",
+  "changelog": "Enviar cena para o Studio agora também no clique direito do modelo e na barra de ferramentas, e o seletor abre com a cena ativa já marcada. Pacote de teste, ainda sem assinatura.",
   "published_at": "2026-09-22",
   "signed": false
 }
