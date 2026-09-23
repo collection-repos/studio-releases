@@ -15,7 +15,7 @@ falharia calado na de todos os outros.
 | -------------------- | ------------------------------------- | --------------------------------------------- |
 | `studio-plugin/`     | **Studio** — o seletor de cenas       | `latest.json` desta pasta, pela própria extensão |
 | `studio-plugin/full/`| **Studio completo** — o Studio inteiro numa janela | `latest.json` desta pasta                |
-| `studio-bridge/`     | **Studio (ponte)** — avisa o aplicativo que o SketchUp está aberto | `latest.json` desta pasta |
+| `studio-bridge/`     | **Studio Bridge** — conecta o SketchUp ao aplicativo e envia as cenas (até a 0.4.2, "Studio (ponte)") | `latest.json` desta pasta, pela própria extensão, e o instalador do aplicativo |
 
 A ponte se atualiza sozinha desde a `0.3.0`, com um atualizador próprio e pequeno: ela é a
 extensão que mais muda, porque cada capacidade nova que o aplicativo aprende a pedir sai numa

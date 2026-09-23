@@ -1,9 +1,9 @@
 {
-  "version": "0.4.2",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-0.4.2-unsigned.rbz",
-  "sha256": "e324e7f732b64493395f4bd5dbabc8746d7a31edde56a87613b1b5462f5ecae0",
+  "version": "1.0.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-1.0.0-unsigned.rbz",
+  "sha256": "ef060a774e246e852881e5ade38bb4193d855112b46387ff39437056c0c447db",
   "min_sketchup": 21,
-  "changelog": "As cenas chegam ao aplicativo mais depressa: cada uma sai logo depois da anterior, em vez de esperar o próximo segundo. Pacote de teste, ainda sem assinatura.",
-  "published_at": "2026-09-22",
+  "changelog": "A ponte agora se chama Studio Bridge. \"Testar conexão\" testa na hora e responde com o resultado, e as mensagens ficaram mais claras. Pacote ainda sem assinatura.",
+  "published_at": "2026-09-23",
   "signed": false
 }
