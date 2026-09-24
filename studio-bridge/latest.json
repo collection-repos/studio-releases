@@ -1,9 +1,9 @@
 {
-  "version": "1.1.0",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-1.1.0-unsigned.rbz",
-  "sha256": "d5f08f1e3a330d0080d984cd89eb35c57ec08596713c62713f87f9e4b601ea0b",
+  "version": "1.2.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-1.2.0-unsigned.rbz",
+  "sha256": "8ef7ee7359d921cef7502fd79abf754aaaef1e0deff976018eea130d6b726743",
   "min_sketchup": 21,
-  "changelog": "Com dois SketchUps abertos, cada um aparece separado no Studio, em vez de um apagar o outro. Pacote ainda sem assinatura.",
-  "published_at": "2026-09-23",
+  "changelog": "Um arquivo sem cenas também aparece no Studio: a \"Vista atual\" traz o que está na tela do SketchUp, sem precisar criar cena. Pacote ainda sem assinatura.",
+  "published_at": "2026-09-24",
   "signed": false
 }
