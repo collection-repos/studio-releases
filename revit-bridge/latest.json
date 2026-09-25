@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/revit-bridge/studio-bridge-revit-1.0.0.zip",
+  "sha256": "698d79d552d0a95b51b4cdbb8f5904ddbbd584433665bcbcca3f7fb104641653",
+  "min_revit": 2021,
+  "changelog": "Primeira versão: conecta o Revit 2021 em diante ao Studio e envia as vistas 3D e a vista da tela.",
+  "published_at": "2026-09-25",
+  "signed": false
+}
