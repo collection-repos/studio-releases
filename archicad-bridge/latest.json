@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "min_archicad": 25,
+  "archicad": [
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "packages": {
+    "win": {
+      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.0.0-win.zip",
+      "sha256": "1ffc3427ea864d282b3d90861bb3cd5d3d50f3fa6aa8c152b417f036a5db76c2"
+    },
+    "mac": {
+      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.0.0-mac.zip",
+      "sha256": "069e2163d61f1093888d40a7eced17ec084a0954116a6d465edb92621c6dfab1"
+    }
+  },
+  "changelog": "Primeira versão: envia as vistas 3D e as câmeras do Archicad para o Studio.",
+  "published_at": "2026-09-25",
+  "signed": false
+}

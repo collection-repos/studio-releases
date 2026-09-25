@@ -17,6 +17,7 @@ falharia calado na de todos os outros.
 | `studio-plugin/full/`| **Studio completo** — o Studio inteiro numa janela | `latest.json` desta pasta                |
 | `studio-bridge/`     | **Studio Bridge** — conecta o SketchUp ao aplicativo e envia as cenas (até a 0.4.2, "Studio (ponte)") | `latest.json` desta pasta, pela própria extensão, e o instalador do aplicativo |
 | `revit-bridge/`      | **Studio Bridge do Revit** — o mesmo, no Revit 2021 em diante: conecta e envia as vistas 3D | `latest.json` desta pasta, pelo próprio complemento, e o instalador do aplicativo |
+| `archicad-bridge/`   | **Studio Bridge do Archicad** — o mesmo, no Archicad 25 a 29, Windows e Mac: um pacote por sistema, com uma compilação por versão | `latest.json` desta pasta, pelo próprio complemento, e o aplicativo (instalador do Windows e app do Mac) |
 
 A ponte se atualiza sozinha desde a `0.3.0`, com um atualizador próprio e pequeno: ela é a
 extensão que mais muda, porque cada capacidade nova que o aplicativo aprende a pedir sai numa
