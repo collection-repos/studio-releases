@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "min_archicad": 25,
   "archicad": [
     25,
@@ -10,16 +10,16 @@
   ],
   "packages": {
     "win": {
-      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.0.1-win.zip",
-      "sha256": "3edd1848d57a838aa84a11f24a61e5714fc22de89f50f660f574afb89365f37c",
+      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.1.0-win.zip",
+      "sha256": "578d9da29a7b00977e9b50cf0f5eed167021df8622b47ea6cf9f6b67a38c63d5",
       "signed": true
     },
     "mac": {
-      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.0.1-mac.zip",
-      "sha256": "1b3a6dda28e0919e3da95ed083461c629c3f2a4803f3e77c292c5f0f613c0a6b",
+      "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/archicad-bridge/studio-bridge-archicad-1.1.0-mac.zip",
+      "sha256": "7502f580b40f5d967baf4e24be839bfb07d930921e3e9a9106376e89335bb01e",
       "signed": false
     }
   },
-  "changelog": "O complemento do Windows sai assinado pela COLLECTION LTDA.",
-  "published_at": "2026-09-25"
+  "changelog": "O Studio passa a ver as plantas, o que está selecionado, as camadas e as superfícies do Archicad, e pode esconder e mostrar camadas, isolar, selecionar, pintar e enquadrar a seleção e salvar a vista atual (cada mudança é um passo de desfazer \"Studio: …\").",
+  "published_at": "2026-10-04"
 }

@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-1.2.0-unsigned.rbz",
-  "sha256": "8ef7ee7359d921cef7502fd79abf754aaaef1e0deff976018eea130d6b726743",
+  "version": "1.3.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/studio-bridge/studio-bridge-1.3.0-unsigned.rbz",
+  "sha256": "4ab883dbe9de977397e384bde250387912e5545ad25ba52dcad4854d7e3dbe19",
   "min_sketchup": 21,
-  "changelog": "Um arquivo sem cenas também aparece no Studio: a \"Vista atual\" traz o que está na tela do SketchUp, sem precisar criar cena. Pacote ainda sem assinatura.",
-  "published_at": "2026-09-24",
+  "changelog": "O Studio vê a seleção, as etiquetas e os materiais do modelo, e pode esconder, mostrar, pintar, selecionar e salvar vistas, cada mudança num passo do Desfazer. Pacote ainda sem assinatura.",
+  "published_at": "2026-10-04",
   "signed": false
 }

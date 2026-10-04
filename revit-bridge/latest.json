@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/revit-bridge/studio-bridge-revit-1.0.1.zip",
-  "sha256": "964d0b454c7e0a1becf81b7a2c1304e2c399b25bca0ff73fc74553349f8e0483",
+  "version": "1.1.0",
+  "url": "https://raw.githubusercontent.com/collection-repos/studio-releases/main/revit-bridge/studio-bridge-revit-1.1.0.zip",
+  "sha256": "7601b5641bbdfa5e95d37e80829fe65134e290d4bb9bf80d8c36a5bea8b43335",
   "min_revit": 2021,
-  "changelog": "As DLLs saem assinadas pela COLLECTION LTDA.",
-  "published_at": "2026-09-25",
+  "changelog": "O Studio passa a ver as plantas de piso, a seleção, as categorias e os materiais do projeto, e a pedir ao Revit que esconda, mostre, isole, pinte, selecione, aproxime e salve vistas.",
+  "published_at": "2026-10-04",
   "signed": true,
   "unsigned_loaders": {
     "net48": "2d946516476cf8f32b47be6d138a4d564ee5c362af62995f86e429a176df4b94",
